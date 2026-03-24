@@ -12,6 +12,18 @@ The goal is not to build a production-ready system, but to help us understand ho
 
 ---
 
+## Local development
+
+- **Node.js** 18.18 or newer (20 LTS recommended)
+- Install: `npm install`
+- Dev server: `npm run dev` — open [http://localhost:3000](http://localhost:3000) (requests to `/` redirect to `/booking`)
+- Lint: `npm run lint`
+- Production build: `npm run build`, then `npm start`
+
+Start from **`pages/booking.tsx`**. You may add files under `components/`, `lib/`, or elsewhere as you prefer.
+
+---
+
 ## The task
 
 Build a **simple multi-step booking flow** using **Next.js with the Pages Router**.
