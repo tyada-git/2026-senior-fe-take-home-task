@@ -157,13 +157,33 @@ You are **encouraged** to use AI tools in the same way you would in your normal 
 
 ## Submission
 
-1. **Clone** this repository (or your assigned fork, if we gave you one).  
-2. **Create a branch** named `candidate/your-firstname-lastname` (for example, `candidate/jane-smith`). Use your **real name** so we can match your submission to your application.  
-3. **Implement** the task on that branch.  
-4. **Document** your assumptions and trade-offs: add a separate `NOTES.md` file in the repo root covering:  
+We do **not** grant push access to our repository. Please submit your work using a **public fork** on GitHub so we can review your branch without extra permissions or pull requests.
+
+1. **Fork** this repository on GitHub (to your own account).  
+2. Keep your fork **public**. We need to be able to open it with a normal URL (no login or collaborator access required). If GitHub ever offers to make the fork private, choose **public** for this exercise.  
+3. **Clone your fork** locally (use your fork’s URL, not the TravelLocal repo URL).  
+4. **Choose where to implement** (on your fork only):  
+   - **Recommended:** create a branch `candidate/your-firstname-lastname` (e.g. `candidate/jane-smith`) using your **real name**.  
+   - **Alternatively:** use **`main`** on your fork — your fork’s `main` does not change our repository.  
+5. **Implement** the task on that branch.  
+6. **Document** your assumptions and trade-offs: add a separate `NOTES.md` file in the repo root covering:  
    - Any assumptions you made  
    - What you would improve or add for production  
-5. **Commit** your work, **push** the branch, and **tell us** it is ready (reply to your recruiting contact with the branch name or link, as they instructed).
+7. **Commit** your work and **push** to your fork (`git push` your chosen branch).  
+8. **Tell us it is ready** — reply to your recruiting contact with:  
+   - The **URL of your fork** on GitHub (e.g. `https://github.com/YOUR_USERNAME/REPO_NAME`), and  
+   - The **branch we should review** (`candidate/jane-smith` or `main`).  
+
+   Example link when using a named branch:  
+   `https://github.com/YOUR_USERNAME/REPO_NAME/tree/candidate/jane-smith`
+
+We will review your code from your **public fork**. You do **not** need to open a pull request to our repository.
+
+**Branch name:** We recommend a branch named `candidate/your-firstname-lastname` (e.g. `candidate/jane-smith`) using your **real name**, so we can match your submission to your application. That branch lives only on **your fork** — it is not merged into our repo.  
+
+If you prefer, you may implement on **`main`** on your fork instead; nothing you push to your fork’s `main` affects our repository. If you do that, tell us clearly that the work is on **`main`** when you send the fork URL.
+
+If you already cloned our repo before forking, add your fork as a remote (e.g. `git remote add fork https://github.com/YOUR_USERNAME/REPO_NAME.git`) and push your branch there.
 
 ---
 
