@@ -1,0 +1,82 @@
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+.stepIndicator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  max-width: 450px;
+}
+
+.stepItem {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex: 1;
+}
+
+.stepItem:last-child {
+  flex: 0 auto;
+}
+
+.stepCircle {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background-color: #ccc;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.stepCircle.active {
+  background-color: #04bbc2;
+}
+.stepCircle.completed {
+  background-color: #007c80;
+}
+
+.stepDesc {
+  font-size: 0.75rem;
+  color: #555;
+  margin-left: 0.5rem;
+  white-space: nowrap;
+}
+
+.stepLine {
+  height: 2px;
+  background-color: #938f8f;
+  flex-grow: 1;
+  margin: 0 1rem;
+  z-index: 1;
+}
+
+.stepItem.completed .stepLine {
+  background-color: #007c80;
+}
+
+@media (max-width: 600px) {
+  .stepDesc {
+    display: none;
+  }
+
+  .stepLine {
+    margin: 0 0.5rem;
+  }
+}

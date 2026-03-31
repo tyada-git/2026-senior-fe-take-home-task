@@ -1,0 +1,50 @@
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+.backButton {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: #007c80;
+  background: transparent;
+  border: 2px solid #007c80;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.backButton:hover {
+  background: #e6f4f4;
+}
+
+.backButton:focus-visible {
+  outline: 3px solid #007c80;
+  outline-offset: 3px;
+}
+
+.nextButton {
+  padding: 0.75rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: #fff;
+  background-color: #007c80;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.nextButton:hover {
+  background: #005a5c;
+}
+
+.nextButton:focus-visible {
+  outline: 3px solid #007c80;
+  outline-offset: 3px;
+}

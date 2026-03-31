@@ -1,6 +1,8 @@
 .detailsForm {
+  position: relative;
+  z-index: 2;
   max-width: 600px;
-  margin: 2rem auto;
+  margin: 1rem auto;
   padding: 2rem;
   background-color: #ffffff;
   border-radius: 12px;
@@ -56,30 +58,6 @@
   resize: vertical;
   min-height: 80px;
   font-family: inherit;
-}
-
-.submitBtn {
-  background-color: #007c80;
-  color: #fff;
-  font-weight: 600;
-  font-size: 1rem;
-  padding: 0.7rem 1.2rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition:
-    background-color 0.2s,
-    box-shadow 0.2s;
-}
-
-.submitBtn:hover {
-  background-color: #005a5c;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-}
-
-.submitBtn:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
 }
 
 .errorMessage {
