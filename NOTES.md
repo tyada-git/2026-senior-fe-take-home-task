@@ -87,3 +87,8 @@ All data is mocked locally.
 5. **Internationalisation** – error messages and labels are currently hardcoded English strings.
 
 6. **Phone validation library** – use library if tis validation is needed at multiple places.
+
+
+## STEP 2 PREVIEW:
+<img width="500" height="661" alt="image" src="https://github.com/user-attachments/assets/64e8cd3b-b89d-4ae3-bfa2-4028ba3d489e" />
+
