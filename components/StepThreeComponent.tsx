@@ -11,7 +11,7 @@ const StepThreeComponent: NextPage<StepThreeProps> = ({
 }) => {
   return (
     <div role="status" aria-live="polite">
-      <h2>You a re all set!</h2>
+      <h2>You are all set!</h2>
       <p>
         Thank you for submitting your traveller details for{" "}
         <strong aria-label={`Trip name: ${tripName}`}>{tripName}</strong> to{" "}
